@@ -48,6 +48,7 @@ int main ()
         cout<<endl<<endl<<"Select your choice "<<endl;
         cout<<endl<<"1.Deposite \n2. Withdraw\n3.Check balance \n4 Exit"<<endl;
         cin>>choice;
+     // using switch case for choosing the choices
         switch (choice)
         {
       case 1:
