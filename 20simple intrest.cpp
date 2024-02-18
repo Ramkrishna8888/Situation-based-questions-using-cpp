@@ -1,3 +1,4 @@
+// program for calculating the simple intrest
 #include<iostream>
 using namespace std;
 class SI
