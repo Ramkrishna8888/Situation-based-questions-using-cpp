@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+// created a getstring name function for counting the length of the string
 int getstring(char name[])
 {
     int count=0;
@@ -11,7 +12,8 @@ return count;
 }
 int main()
 {
-   char name[20];
+   // using character array
+    char name[20];
     cin>>name;
     int n = getstring(name);
     cout<<"The length of the string is "<<n;
